@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">recyclerView1</string>
+    <string-array name="names">
+        <item>Sun</item>
+        <item>Mecury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Sartun</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Black Hole</item>
+        <item>Supernova</item>
+        <item>Moon</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>The sun is at the center of the solar system.
+            The Sun is 93 million miles from the Earth. It
+            is the largest object in the solar system. Its diameter,
+            or distance through its center, is 865,000 miles (1,392,000 kilometers)</item>
+        <item>Mecury is the first planet from the sun. It is also the smallest planet
+        in the solar system</item>
+        <item>Venus is the second planet from the sun. It is also the brightest and the
+        hottest planet in our solar system. It is sometimes called teh bright morning star</item>
+        <item>Earth is the planet we are in. It is the third planet from the sun. It can support
+        life and that is why we live on it</item>
+        <item>Mars is the fourth planet form the sun. It is red in color and also said to have
+        been able to support life at some point in history</item>
+        <item>Jupiter is the fifth planet form the sun. It is the largest planet in
+        our solar system yet made of gas.</item>
+        <item>Sartun is the sixth planet in out solar system. Some say it is the most beautiful
+        planet because of the beautiful rings fo gas around it</item>
+        <item>Neptune the seventh planet form the su. It is blue in color and furthest star
+        from the sun</item>
+        <item>Black Hole</item>
+        <item>Supernova</item>
+        <item>Moon</item>
+    </string-array>
+</resources>
