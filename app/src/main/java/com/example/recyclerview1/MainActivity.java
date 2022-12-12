@@ -1,6 +1,8 @@
 package com.example.recyclerview1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
@@ -18,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setup();
+        RecyclerView recyclerView = findViewById(R.id.r_view);
+        setup();//gets the text form the arrays in the strings.xml file onto our arrayList
+        planetAdapter adapter = new planetAdapter(this , modelList);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     private void setup()
